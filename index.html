@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js"></script>
+    <script src="index.hbs"></script>
+</head>
+<body>
+
+    {{{body}}}
+    <nav>{{profile}}</nav>
+    
+
+    <script>
+        
+    person = {
+        firstname: 'Kehinde',
+        lastname: 'Lawal'
+    }
+
+
+const profile = handlebars.registerHelper('profile',()=>{
+    return person.firstname+' '+person.lastname 
+})
+    </script>
+</body>
+</html>

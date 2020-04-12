@@ -1,0 +1,20 @@
+{
+  "name": "learn-handlebars",
+  "version": "1.0.0",
+  "description": "Simple Express Handlebars application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-handlebars": "*"
+  },
+  "keywords": [
+    "express",
+    "handlebars"
+  ],
+  "author": "Lawal Abdulrafiu Kehinde",
+  "license": "ISC"
+}

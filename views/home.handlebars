@@ -1,0 +1,18 @@
+<h1>Welcome to Handlebars.js</h1>
+{{#if published}}
+    <p>{{content}}</p>
+{{/if}}
+
+<ul>
+    People Array
+    {{#each people}}
+    <li>{{this}}</li>
+{{/each}}
+</ul>
+
+<ul>
+    Profile Array object
+    {{#each profile}}
+        <li>{{this.firstname}} {{this.lastname}}</li>
+    {{/each}}
+</ul>
